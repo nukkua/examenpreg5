@@ -1,5 +1,37 @@
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: beige;
+  
+}
+.notes-container {
+  width: 20%;
+  height: 100px;
+  margin: 300px auto;
+  border-radius: 20px;
+  background-color: white;
+
+}
+.nav{
+    height: 40%;
+    background-color: black;
+    color: white;
+}
+.nav span:nth-child(1){
+    border-radius: 100px;
+}
+.nav span:nth-child(2){
+    background-color: white;
+    color: black;
+    border-radius: 100px;
+}
+.postnav{
+    display: flex;
+    flex-direction: column;
+    margin: 0px px;
+}
+.postnav span:nth-child(1){
+    margin:0 100px 0 0;
+    color:brown
 }
